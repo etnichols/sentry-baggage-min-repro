@@ -8,18 +8,6 @@ const nextConfig = {
   rewrites: async () => ({
     fallback: [
       {
-        source: '/fake/redirected/get',
-        destination: 'https://jsonplaceholder.typicode.com/todos/1',
-      },
-      {
-        source: '/fake/redirected/post',
-        destination: 'https://jsonplaceholder.typicode.com/posts',
-      },
-      {
-        source: '/fake/redirected/delete',
-        destination: 'https://jsonplaceholder.typicode.com/posts/1',
-      },
-      {
         source: '/api/user',
         destination: 'https://jsonplaceholder.typicode.com/todos/1',
       },

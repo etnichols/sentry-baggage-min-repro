@@ -4,7 +4,8 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         {children}
-        <div id="root"></div>
+        <div id="root-1"></div>
+        <div id="root-2"></div>
       </body>
     </html>
   );
